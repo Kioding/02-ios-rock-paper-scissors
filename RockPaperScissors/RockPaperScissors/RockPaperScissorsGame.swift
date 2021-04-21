@@ -2,7 +2,7 @@
 //  RockPaperScissorsGame.swift
 //  RockPaperScissors
 //
-//  Created by 강경 on 2021/03/05.
+//  Created by Kio on 2021/03/05.
 //
 
 public class RockPaperScissorsGame {
@@ -58,6 +58,11 @@ public class RockPaperScissorsGame {
     }
     
     func gameResult(_ playersHand: Hand, vs computersHand: Hand) -> Bool {
+        print("""
+            플레이어: \(playersHand)
+            컴퓨터: \(computersHand)
+            """)
+        
         if playersHand == computersHand {
             print("비겼습니다.")
             return true

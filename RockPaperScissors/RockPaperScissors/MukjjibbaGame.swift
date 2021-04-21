@@ -2,7 +2,7 @@
 //  MukjjibbaGame.swift
 //  RockPaperScissors
 //
-//  Created by 강경 on 2021/03/05.
+//  Created by Kio on 2021/03/05.
 //
 
 class MukjjibbaGame: RockPaperScissorsGame {
@@ -13,6 +13,11 @@ class MukjjibbaGame: RockPaperScissorsGame {
     }
     
     override func gameResult(_ playersHand: Hand, vs computersHand: Hand) -> Bool {
+        print("""
+            플레이어: \(playersHand)
+            컴퓨터: \(computersHand)
+            """)
+        
         if playersHand == computersHand {
             print("\(winner)의 승리!")
             return false
