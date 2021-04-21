@@ -131,7 +131,7 @@ step1().gameStart()
 ![화면 기록 2021-04-22 오전 1 37 30](https://user-images.githubusercontent.com/65153742/115589986-6f2b2b80-a30b-11eb-850a-58bc74ed52b4.gif)
 ### A. 가위바위보 시작 화면
 ![스크린샷 2021-04-22 오전 1 13 25](https://user-images.githubusercontent.com/65153742/115586881-fecedb00-a307-11eb-83f1-30d692a4fd86.png)
-### A-1. 0 선택 시 게임 종료   
+### A-1. 0(종료) 선택 시 게임 종료   
 ![스크린샷 2021-04-22 오전 1 15 33](https://user-images.githubusercontent.com/65153742/115587117-405f8600-a308-11eb-8cf2-3c910d1d8c34.png)
 ### A-2. 0(종료), 1(가위), 2(바위), 3(보) 외 다른 input이 들어갈 경우, 잘못된 입력 출력 후 재시작
 ![스크린샷 2021-04-22 오전 1 31 22](https://user-images.githubusercontent.com/65153742/115589133-756cd800-a30a-11eb-9153-cece70a9776e.png)
@@ -173,3 +173,14 @@ step1().gameStart()
 - class
 	- init(생성자)
 	- 열거형 타입 부여
+- git stash
+
+<br>
+
+### 참고링크
+- [[Git] git stash 명령어 사용하기](https://gmlwjd9405.github.io/2018/05/18/git-stash.html)
+- [Swift Style Guide](https://github.com/StyleShare/swift-style-guide#%EB%93%A4%EC%97%AC%EC%93%B0%EA%B8%B0-%EB%B0%8F-%EB%9D%84%EC%96%B4%EC%93%B0%EA%B8%B0)
+- [The Swift Language Guide (한국어) - 에러 처리(Error Handling)](https://jusung.gitbook.io/the-swift-language-guide/language-guide/17-error-handling)
+- [if, switch](https://hojak99.tistory.com/442)
+- [swift enum, CaseIterable로 열거형타입 배열처럼 다루기](https://0urtrees.tistory.com/197)
+- [Swift의 기본 프로토콜 세 가지: Equatable, Comparable, Printable](http://seorenn.blogspot.com/2014/08/swift-equatable-comparable-printable.html)
