@@ -1,35 +1,24 @@
 
-## iOS 커리어 스타터 캠프
+# 묵찌빠 프로젝트
 
-### 묵찌빠 프로젝트 저장소
-
-- 이 저장소를 자신의 저장소로 fork하여 프로젝트를 진행합니다
-
-___
-
-### 우리 팀만의 규칙
-
-- 모든 팀원이 참여하는 것과 같은 기본적인 규칙 이외의 우리 팀만의 규칙을 정해요.
+## 1. 우리 팀만의 규칙
 
 연락이 어려운 시간
-
 - Kane - 수요일 저녁 이후
 - 강경 - 수 12:00~15:00
 - kio - 화, 금 20:00~22:00
 
 TIL, 일일회고
-
 - 새벽 1시까지 업로드하기
 
 규칙
-
 - 모르는 건 넘어가지 말고 물어보기
 
-___
+<br>
 
-### 스크럼
+### 1-1. 스크럼
 
-- 스크럼이란 모든 팀원이 모여 매일 짧게 진행 상황을 공유하는 것을 말해요.
+- 스크럼이란 모든 팀원이 모여 매일 짧게 진행 상황을 공유하는 것
 
 시간
 
@@ -43,9 +32,9 @@ ___
 - 컨디션
 - 기술적 이슈
 
-___
+<br>
 
-### 프로젝트
+### 1-2. 프로젝트 협업 규칙
 
 - 프로젝트 협업과 관련된 규칙을 정해요.
 - 브랜치 이름규칙
@@ -97,9 +86,18 @@ ___
     - 커밋 메시지의 규칙 : [https://udacity.github.io/git-styleguide/](https://udacity.github.io/git-styleguide/)
     - [https://blog.munilive.com/posts/my-git-commit-guide.html](https://blog.munilive.com/posts/my-git-commit-guide.html)
 
-___
+<br>
+<br>
 
-### 설계
+## 2. 묵찌빠 프로젝트 세부사항
+### 2-1. 타임라인 ('21.03.01 ~ '21.03.05)
+
+- 월 - 팀그라운드룰 설정, step 1 의사코드 설계, step 1 각자 코딩해보기
+- 화 - step1 PR
+- 수 - step1 PR 리뷰 & step2 슈도코드 각자 설계
+- 목 - step1 refactor
+- 금 - step2 PR
+### 2-2. 프로젝트 초기 설계
 
 ```swift
 class step1 {
@@ -127,10 +125,28 @@ class step1 {
 step1().gameStart()
 ```
 
-### 타임라인
+<br>
 
-- 월 - 팀그라운드룰 설정, step 1 의사코드 설계, step 1 각자 코딩해보기
-- 화 - step1 PR
-- 수 - step1 PR 리뷰 & step2 슈도코드 각자 설계
-- 목 - step1 refactor
-- 금 - step2 PR
+### 2-3. 묵찌빠 프로젝트 구현내용
+
+
+<br>
+
+### 2-4. 학습 키워드
+
+- eunm 열거형
+	- String, Int
+	- CaseIterable
+	- Comparble
+	- Error
+	- rawValue
+- 반복문
+	- while { }
+	- repeat { } while
+- 옵셔널 바인딩
+	- if let
+	- guard let
+- do catch문
+- class
+	- init(생성자)
+	- 열거형 타입 부여
